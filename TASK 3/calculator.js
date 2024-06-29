@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     clearButton.addEventListener('click', () => {
-        display.textContent = '';
-    });
+        display.textContent = '';
+    });
 });

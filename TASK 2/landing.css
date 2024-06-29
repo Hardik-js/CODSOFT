@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -12,22 +13,26 @@ body {
     color: white;
     font-size: 1rem;
 }
+
 .navbar .left {
     flex: 1;
     font-size: 2.25rem;
     margin-left: -4.5rem;
     font-weight: bolder;
 }
+
 .navbar .right {
     flex: 1;
     text-align: right;
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
     padding: 0 15px;
     font-size: 1.25rem;
 }
+
 #hero {
     background: url('https://tse3.mm.bing.net/th?id=OIG1.H8QhryfJyb1Eyhh5Qy5N&pid=ImgGn') no-repeat center center/cover;
     color: #e51f1f;
@@ -36,45 +41,53 @@ body {
     text-align: center;
     font-size: 60px;
 }
+
 #hero .container4 {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 #hero h1 {
     font-size: 50px;
     margin-bottom: 60px;
 }
+
 #hero p {
     font-size: 30px;
     margin-bottom: 100px;
     color: #d7d714;
 }
+
 .cta-button {
     background: #77b300;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    font-size: 30px;    
+    font-size: 30px;
 }
+
 .cta-button:hover {
     background: #5a8a00;
 }
-.container h2{
+
+.container h2 {
     text-align: center;
     margin-top: 5rem;
     font-size: 4rem;
 }
-.service h3{
+
+.service h3 {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 3.5rem;
     color: rgb(111, 111, 235);
 }
-.service p{
+
+.service p {
     font-size: 1.25rem;
     margin-bottom: 2rem;
     /* margin-top: 2rem; */
@@ -82,20 +95,21 @@ body {
     width: 65%;
     padding-left: 15rem;
     padding-right: 15rem;
-    
+
 
 }
-.container1{
+
+.container1 {
     margin-top: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     border: 2px solid black;
     margin-right: 2rem;
     margin-left: 2rem;
     border-radius: 1rem;
 }
 
-.container1 h2{
+.container1 h2 {
     font-size: 3.75rem;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -103,26 +117,31 @@ body {
 
 
 }
-.container1 p{
+
+.container1 p {
     font-size: 1.25rem;
     /* text-align: left; */
     padding-left: 2rem;
 }
+
 #contact h2 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 4.5rem;
     color: rgb(111, 111, 235);
 }
-.img{
+
+.img {
     float: right;
     margin-left: 6rem;
     margin-top: 1rem;
-   
+
 }
+
 #contact {
     padding: 30px 0;
 }
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -131,6 +150,7 @@ form {
     border-radius: 10px;
     background: #f4f4f4;
 }
+
 form label {
     display: block;
     margin-bottom: 12px;
@@ -146,10 +166,8 @@ form textarea {
 
 form button {
     background: #605e5e;
-    /* color: #d41c1c; */
     padding: 10px;
     margin: 10px;
-    /* border: 0; */
     width: 100%;
     border-radius: 5px;
     cursor: pointer;

@@ -6,7 +6,7 @@ body {
    background-color: whitesmoke;
    margin: 0;
    font-family: Arial, sans-serif;
-   
+
 }
 
 .calculator {
@@ -36,7 +36,7 @@ body {
 .btn {
    padding: 20px;
    font-size: 1.5em;
-   background-color:#c64c4c;
+   background-color: #c64c4c;
    border: none;
    cursor: pointer;
    /* transition: background-color 0.3s; */
